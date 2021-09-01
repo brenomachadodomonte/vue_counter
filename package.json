@@ -1,0 +1,23 @@
+{
+  "name": "vue_counter",
+  "version": "1.0.0",
+  "description": "A Simple Counter made with Vue",
+  "main": "index.js",
+  "scripts": {
+    "npm ": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenomachadodomonte/vue_counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenomachadodomonte/vue_counter/issues"
+  },
+  "homepage": "https://github.com/brenomachadodomonte/vue_counter#readme",
+  "dependencies": {
+    "http-server": "^13.0.1"
+  }
+}
