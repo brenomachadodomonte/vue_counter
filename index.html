@@ -8,10 +8,15 @@
 </head>
 <body class="counter">
     <div id="app">
-
+        <p>{{ counter }}</p>
     </div>
 <script>
-
+    new Vue({
+       el: "#app",
+       data: {
+           counter: 0
+       },
+    });
 </script>
 </body>
 </html>
