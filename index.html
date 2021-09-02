@@ -9,7 +9,10 @@
 <body class="counter">
     <div id="app">
         <p>{{ counter }}</p>
-        <p><button @click="add">+1</button></p>
+        <p>
+            <button @click="reset">RESET</button>
+            <button @click="add">+1</button>
+        </p>
     </div>
 <script>
     new Vue({
@@ -19,8 +22,12 @@
        },
         methods: {
            add(){
-               this.counter++
+               this.counter++;
+           },
+           reset(){
+               this.counter = 0;
            }
+
         }
     });
 </script>
